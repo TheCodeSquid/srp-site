@@ -6,7 +6,7 @@ import styles from "./PageSwitcher.module.css";
 const FPS = 10;
 const MS_PER_FRAME = 1/FPS * 1000;
 
-const BASE = import.meta.env.BASE_URL;
+const BASE = new URL(import.meta.env.BASE_URL).pathname;
 
 interface PageSwitcherProps {
   pages: { [path: string]: Component }
@@ -26,7 +26,6 @@ export default (props: PageSwitcherProps) => {
   const setPathFromReal = (realPath: string) => {
     if (realPath.startsWith(BASE)) {
       const relPath = realPath.slice(BASE.length);
-      console.log(relPath);
       if (relPath in props.pages) {
         setCurrentPath(relPath);
         return;
