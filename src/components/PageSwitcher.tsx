@@ -36,21 +36,6 @@ export default (props: PageSwitcherProps) => {
     setCurrentPath(location.pathname);
   };
 
-  let lastScroll = window.scrollY;
-  const [scrollVelocity, setScrollVelocity] = createSignal(0);
-
-  let quit = false;
-  let lastUpdate = -Infinity;
-  const update = (timestamp: number) => {
-    let delta = timestamp - lastUpdate;
-    if (delta >= MS_PER_FRAME) {
-      let diff = window.scrollY - lastScroll;
-      lastScroll = window.scrollY;
-      setScrollVelocity(0.99 * scrollVelocity() + 0.01 * diff);
-    }
-    if (!quit) requestAnimationFrame(update);
-  };
-
   let badClicks = 0;
   let [badMsg, setBadMsg] = createSignal("I forgot to do that one...");
   let [badShown, setBadShown] = createSignal(false);
@@ -106,11 +91,9 @@ export default (props: PageSwitcherProps) => {
 
   onMount(() => {
     window.addEventListener("popstate", onPopState);
-    requestAnimationFrame(update);
   });
   onCleanup(() => {
     window.removeEventListener("popstate", onPopState);
-    quit = true;
   });
 
   return <div class={styles["switcher"]}>
@@ -119,11 +102,7 @@ export default (props: PageSwitcherProps) => {
     </div>
 
     <div class={styles["nav-wrapper"]}>
-      <nav
-        ref={nav}
-        class={styles["nav"]}
-        style={`--velocity: ${scrollVelocity()}`}
-      >
+      <nav ref={nav} class={styles["nav"]}>
         <div
           class={styles["cursor"]}
           style={`--idx: ${cursorIdx()}`}

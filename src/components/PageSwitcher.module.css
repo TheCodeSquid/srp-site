@@ -37,13 +37,10 @@
 .nav {
   @mixin panel;
   --line-height: 1.4rem;
-  --velocity: 0;
 
   padding-left: 0.4rem;
   display: flex;
   flex-direction: row;
-
-  transform: translateY(calc(-1px * var(--velocity) / 2));
 
   line-height: var(--line-height);
   a {
