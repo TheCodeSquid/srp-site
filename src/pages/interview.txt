@@ -1,0 +1,355 @@
+D: This is Diego Sesmas and for my senior project I’ll be interviewing Daniel
+Pedilla
+P: Hello hello
+1. D: My first question is when did you start working in software development, or
+the industry as a whole?
+P: Okay I started working on when I was on my fourth semester year during my
+university years. So my career was five year long; it was divided in ten semesters.
+My first job was on the fourth semester. I started working in the university itself. I
+was the system administrator of all the mainframe equipment in the university.
+So that’s when I start working. I mean these mainframes was for the university
+labs and for all the students so that was my first job. So I started in the year 1993.
+2. D: That’s very interesting! So my next question is what was the path that you
+took for your—I think a better way to put this would be what—how did you
+choose this career?
+P: Okay so interesting question the reason I chose this career is I always been
+good in math and science so I knew that I was going to be an engineer. I mean I
+didn’t like medicine, I hate blood so I started by elimination I knew I didn’t
+wanna be a doctor. I also I like to read a lot of technical articles but I’m not really
+good any reading books in general so I knew that that rules out all that has to go
+with lawyers and you know philosophy anything the has to do with reading a lot
+that’s not my thing, so I knew that I can be that. So that only lead to really
+accounting and administration or engineering and therefore I really like—I was
+really good in math so I think the was an obvious choice, you know, I knew I was
+gonna be an engineer. And then I was interested in a electronics also I was
+interested in civil engineering and then of course computer science, so I ended up
+deciding on computer science because at that time, I mean I’m talking here late
+eighties early nineties, you all the video game industry was just in it’s infancy,
+and it really really caught my attention you know the graphics back then it was
+like something—I mean nowadays you will laugh about them but back then then
+it was—you know everything was terminal, text based so seing graphics in a
+computer was something really really amazing. So really because a video games I
+decided you know what? I’m just going to study computer science and that’s it! I
+decided to study about it because I love video games in the the late eighties. And
+yea I don’t regret it. I love it. I love what I study, I love my career, I would
+definitely choose that again.
+D: That is reassuring to hear.
+P: Yep
+3. D: So, on the other hand, my next question is looking back on a how you got to
+where you are now, is there anything you would change
+P: Okay now regarding to—sorry I forgot to mention that by now when I started
+out I studied computer science, then first—I mean by the way I got in because I
+love games. I’ve never ever worked in game development or anything, it was just
+starting point. But then you know at first I started working as system
+administrator. I mean basically in the university my first job was I was a system
+administrator. Then when I finish my university my first job was in a beer
+company but I was again in system administration. I was working in IT and I was
+the system administrator of a lot of mainframe equipments they had all the
+factories. So it was a still in system administration, I loved it, but then came an
+opportunity to change and I came to the US—I mean all these happening in
+Mexico, where I’m from—and then there was an opportunity to go to the US so I
+moved to a company, but now more in the in the customer support area, and
+these first company that I moved in was—they were the makers of a traffic
+system. This is for the television industry, so in a multi-channel operation—you
+know like cable companies or direct-to-home broadcasting companies, you have a
+lineup of hundreds of channels, so you need a system that has all the input for all
+the, you know what is gonna be the program you for all those hundreds of
+channels, so this company did the software that provides that technology I mean
+to to be able to scale to hundreds of channels in the broadcasting industry. So I
+started working for them but in a customer support capacity because I was
+speaking Spanish all the customers wear in the Latin American region. From
+there I always stayed in the television industry. I mean then I moved to their
+condition access side, I passed through also the subscriber management, SETO
+box development, I mean it’s always been related to the broadcasts industry. Sort
+of all my path to what I do now.
+4. D: Along that path, what would you—is there any regrets? Anything you’d do
+differently? Or just anything to look out for?
+P: Anything to look out for… I mean I always loved that, you know even though
+I’ve been in the same industry I think I have covered pretty much everything in
+this industry so I have a very broad view of the industry, I mean from the systems
+point of view, because I have I been working across all this time in all these
+systems probably if I had stayed in just one system them maybe after so many
+years definitely I will look for something else otherwise it gets too repetitive, but
+because I have been jumping and really covering all the systems involved like I
+said I mean from from Q&A, to SETO boxes, to subscriber management systems,
+to entitlement management, to conditional access, scheduling delivery, so
+everything, encryption, encoding, decoding, so yeah I mean it’s been it’s been
+great. I think the only thing that I would different is if I stay too long in this doing
+the same thing I would definitely jump earlier you know before becomes too
+boring or repetitive. That’s the only thing that I would do.
+5. D: As you have been in the industry, how have you seen it change? Since you
+started to now, really.
+P: Ah, it has changed a lot. I mean pretty much all my career has been in the
+broadcasting world so when I enter the, you know, when I joined this company
+’98, it was really the beginnings of the digital television world because before all
+broadcasting world was analog you know when everybody could just cut the
+cable, put a multiplexer and getting to signals from the same cable and only one
+paying and stuff like that was in the analog world, but once it switched to digital
+that was no longer possible because now everything is encrypted digitally and
+only if you have the authorization then you can decode. So these started really
+the nineties the digital broadcasting and I joined the when directv pretty much
+had just a couple of years of launching. Those were the first digital systems, like
+directv. I mean I joind at the very very very beginning, so I’ve seen in evolve I
+saw from rapid, huge growth of the industry to where we are now which is pretty
+much plateauing and competing with a new technologies like a streaming and
+you know all that, but but yeah I mean I’ve seen a lot of changes in the industry
+and consolidation and it’s been interesting.
+6. D: Right, next question. In the same theme, how do you think your spot in the
+industry and the field you’re in will change in the future?
+P: In the future definitely everything is pointing to streaming, okay? So the
+difference between the traditional broadcasting and streaming is you know in the
+broadcasting world you have channels you have a schedules. Nowadays not
+everybody has the patience to sit on tv to see what he’s in there I mean right now
+is more like you just go and watch what you want to see so that model works very
+well for content that is no live meaning if you want to see a movie, if you want to
+see a program, you just go to netflix go to any any other streaming platforms and
+you can watch it, but when it comes to live tv, especially sports events, a lot of
+those sports events still have you know the big broadcasters they still have the
+monopoly in the sense of exclusivity contracts, so I feel that as long as that exists
+—and they have a lot of power because you know a lot of these companies they
+are the, you know when you have cable you know not necessarily mean tv but
+you might still have the internet so even if is streaming the cable company has a
+lot to say in that, so they control a lot of these contracts with the sports industry
+and so on. I mean I think that everything is going to be drive by the sports
+industry at this point. And also by be content because whoever owns the content
+that at the end it doesn’t matter how you distribute it, broadcasting, streaming, at
+the end the one that makes the money is the content owner okay? So on that’s
+why there is also consolidation in buying the more content. I will say that’s also
+why netflix changed you know to to be a producer of content in not only paying
+for content, they actually own the content so they can stay relevant. Otherwise
+would just increase the the price of the continent they would be ruled out. But it
+is still an industry in a lot of evolution. I mean nothing he set in stone. And the
+other thing is that the world is pretty big and not everywhere you have
+broadband introduction. Only the big cities have broadband, but in the world—
+especially the third world countries—there is a still a lot of rural areas where the
+only way to deliver something with satellite. That’s why these broadcasters are
+not going to dissapear, it’s just that they’re going to have a diminished role. But
+they’re gonna be here for a while.
+7. D: Okay, so going back to you, in your opinion, what you say is your favorite
+part of your career? What you like the most about it?
+P: I mean the in the computer science days a lot of fields. I like the system
+administration part. I like the data analysis. Data analyses I mean the preparing
+the analyses, databases I’d say is interesting. I’ve been most of my career
+dedicated a customer support and customer support is also very important
+because that’s the interface between the company and what the customer needs
+and so the future development goes towards the customer needs so customer
+support is very interesting. And I mean nowadays artificial intelligence is
+becoming the next big thing I am not familiar with that technology. I haven’t
+really needed to work with that yet. I don’t know how it’s going to affect the
+industry. But yeah I mean I would say that data analyses, system administration,
+networking, it’s very interesting. And yeah I don’t have a lot of experience in
+other fields like security. In all that stuff it’s not my expertise.
+8. D: Building off the that, like in your area of expertise in just like your day-to-
+day role in your job, what aspect of that do you—what sets this job apart from a
+other choice? What about this job do you like the most? I’m not sure I put it the
+best but—
+P: I like the interaction with a customer. I always I mean not always but I’ve been
+a big part of my career customer support I support the customers. All across these
+years I have a good relationship with them so it’s really nice to be—I mean in this
+industry you kind of, it’s like marrying a company. I mean they’re not many
+broadcasters in each country. I mean have really some countries you have only
+like two or three at most a handful of broadcasters. It’s a very cost intensive
+industry therefore there’s not many players but the the ones that exist are very
+big. I mean each customer each of our customers have millions of customers so
+they’re very big companies and you know the company I’m working at provides
+conditional accessibility keeping encryption so once you have encryption in a
+device, you’re kind of marrying that company, meaning is not so easy to replace
+millions of boxes with a different technology so that’s why we develop very deep
+relationships with our customers therefore we know them for years. I mean it’s
+not that you know some companies have hundreds of thousands of customers but
+the customer has no relationship with with a company. Ours is opposite we have
+a very deep—we’re almost partners with the customer. Sort of relationship that
+can with that is there really really interesting really pretty nice and very nice to
+work with a company a as partner. We understand their needs, we want them to
+thrive because by them doing good we do good so like a partnership really so
+that’s what I like the most. The human part.
+9. D: So, what aspects of your job do you dislike, if any? Or is like the perfect
+career that anyone could want?
+P: No no definitely there are some stuff that I mean I guess these is more of
+companies I don’t like politics but unfortunately politics in companies are always
+the so yeah I mean I guess that’s the part that I don’t like. It that happens in every
+company. Politics inside the company. I’ve always seen my job know from the
+technical point of view so to me really I mean that’s the beauty of computer
+science everything is binary it works or it doesn’t work and I mean there’s no in
+between you know. Versus the politics you know once you involve the sales team
+hardware, and I want to ask about the software because I remember you
+mentioning you find one of the most important things to be a always learning
+new things. Like, you’ve mentioned your projects, so where do you go to do this
+learning?
+P: Okay, for learning you know computer science, technology advances too fast,
+So you always need to be updated. I mean a I finished my university in ninety five
+long time ago that doesn’t mean that I’ve study or learn anything from then I’ve
+been learning all these time not formally with schools or but I just learn
+everything on the internet and that is a beauty of the internet all the
+information’s there. I’m really good at self learning that helps becuase you need
+to be diciplined and organized and if you want to learn somethingyou will learn
+it. Just by the resources that are in the internet. Of course some people prefer
+more the traditional way of coding and enrolling to a class going to the class
+records or something and you know I mean in this industry there is a lot of
+where they call certifications but you know the certifications everything that is
+taught in a certification you could learn on your own. Like I said, it depends a lot
+on personality. I would definitely recommend you always keep updated in
+everything that that you need to learn. Now there are way more things to learn
+that time available, so I would say focus your attention on the stuff that you really
+want to learn. There’s some that you’re going to actually use instead of trying to
+learn everything. I mean around the beginning I was trying to learn everything I
+would read and I knew of a little bit about everything but at the same time you
+start realizing that is better to specialize and instead of learning a little bit about
+everything I mean it’s ok to know a little bit about everything but actually
+specialize in the stuff you are actually using and really go deep in those you know
+because like I say time is not infinite I would love if the they had fifty hours but
+unfortunately there is limited time yeah I mean focus your energy on on learning
+this stuff they that you working on. You know and also the stuff that that is more
+promising in the future because there’s a lot of technologies that in the beginning
+seem like that was the they I mean seem like that was the big thing and few years
+later they just vanished and something has happened. Like programming
+languages you can see it all the time there new languages but you know some
+languages stay alive four more years the others it’s more like they disappear
+eventually. But yeah definitely recommend keeping always updated and learning
+on your own. It’s always good.
+13. D: Something else, you mentioned how you like a job and it’s great but the
+thing that you dislike the most is a lot of the—really interesting thing I just
+thought about—something you enjoy a lot is the people like the customer support
+whereas the thing you dislike the most in a way is also the people but more like
+your company, so—wait, sorry—with the company, how do you feel about the
+work environment?
+P: The work environment… I’ve never really had issues or anything or dislike
+anything with a work environment. I mean we always had a very good am work
+environment. Part of that I think is because in computer science there is a lot of
+stuff that is open source or public domain, so finding another employee your
+another coworker that does the same is very easy I mean like for example let’s
+say that you were with in networking and you need a networking guy I mean all
+the the operating system for Cisco not be secret I mean it’s open source it’s
+everywhere so anyone can know that stuff and it’s very easy to replace a person
+in this industry. Because you know the company I work for does encryption and
+by the nature of the industry it’s not open source is actually a very well-kept
+secret. And also in the broadcasting industry is not very easy to know I mean to
+see people that knows about this industry you know all the protocols in this
+industry. So it’s not very easy to replace a engineers. So maybe by these
+combination we’ve have people that lasted for years and years and years. Not
+only I mean we notice that not only in my company but also with a customer. The
+customer faces the same itssue it’s not very easy for them to replace engineers so
+you work along people for many many many many years with was no rotation,
+and therefore we don’t see that much of—I mean we don’t see these issues with
+people like us. Were more like family and I don’t know if these is is normal but all
+the relations we have with our customers are like partners. We know them for
+many years and it’s always the same people and they stay for very long time there
+in their roles and in their careers so there’s not a lot of rotation on this industry
+and and you find the same people even if some people leaves the company you
+find him later in another company it’s amazing but like like I said it’s not because
+—in a lot of the open source or development or stuff like that where it’s common
+knowledge probably rotation is huge but in these industries, no you work more
+or less with the same people and the human factor is always—I will say it’s
+always good. I mean you know the same people all over always. We have a good
+relationships.
+14. D: That actually covers something I wanted to ask as well, job security. So, if
+you’ve thought about it, what is your approach to making sure you stay in job?
+P: Job security… like I said it is not easy to replace engineers that work with
+proprietary technology it’s not like you know you hire somebody we’ll need to
+train them and the cost of training—it takes a long time I mean and many times
+not even train and—I noticed this, I have trained a lot of people and I’ve noticed
+that doesn’t matter how long you train them or how well you tried to instruct
+something, only experience is what makes you really understand or learn the
+systems and—so he takes time I mean for an engineer, especially a support
+engineer in these fields from hiring to really let him be on his own supporting
+everything you maybe a couple of years I mean is not—the system is very very
+broad I mean it’s huge well the inputs and outputs and all the systems in
+between, it’s just very very big and it takes a long time to to dominate where the
+problem is. So most of the engineers that—like I said they stayed in the industry
+for a long time. And that at the same time gives you a lot of job security because
+like I same is not easy to replace people I mean the same company and they don’t
+wanna let you go because it’s not easy to replace you so. And now on top of that I
+mean it helps in my case what has also I guess help me is being bilingual or
+trilingual you know the fact I speak spanish portuguese that gives me I guess an
+edge supporting all the latin american customers because my customers are
+mostly in latin america so when I mean it’s not only replacing the—basically
+everything in my experience everything that I know across this time but also you
+know would need to find somebody that on top of that speaks spanish portugese
+so not easy so it gives a lot of job security and of course by all those because I do
+the job well and of course if tje results are not there it’s obvious that they will
+replace you so I guess they have advises always prepare always be the best you
+can be in whatever you’re doing and I mean that does definitely gonna give you
+job security I mean if you’re very good at something nobody’s going to replace
+you.
+15. D: Thank you for that. As a final things since that’s most of the points I wanted
+to cover, any general advice for someone entering this field?
+P: Um, general advice would of course study a lot. There’s a lot to study. Computer
+sciences is something that requires a lot of hands on I mean you’re gonna see a
+lot of theory of course and a lot stuff in the school but there is nothing like hands
+on meaning if you learn a language the only way to really learn languages is
+coding I mean you need to code in that language so put yourself project I mean
+even of course the schools going to you a lot of project but even personal projects.
+Decide okay I’m gonna do these that you know nice big final projects and then do
+them and that’s the was way to learn something, when you really get hands on
+and you know because only then do realize it maybe whatever you studied in
+school is not enough you need something else and that pushes you to always keep
+looking and learning stuff to complete the project so yeah I mean always keep
+learning always keep practicing yeah I mean that I think there will be the best
+advice. But like I say always reasonable times. It is very easy when you’re young
+staying twenty four hours in front of the computer but that’s not healthy. So
+everything with limits but but yeah definitely always keep learning always keep
+practicing always put yourself projects do stuff and keep learning. That’ll be my
+best advice.
+16. D: Actually, one more question. A light-hearted, personal struggle that I tend to
+have and I wanted to see if I can get any input from you… how do you name your
+projects? Because I’ll have a amazing project idea and I want to start working on
+this, but what do I name it?
+P: Okay for example let me see if I can give you—I wanna tell you what was my
+one on my first projects… I mean one of my first projects is I didn’t wanna put all
+my pictures on facebook or google or anything like that, but I didn’t really like
+anything that was out their to do you know for like I mean I want to see my—I
+mean to have a place where I can organize all my pictures so what do I do with
+them? You know obviously as pictures start moving digitally before anybody
+would take one two three pitchers because everything has to be film but once it
+was digital you have hundreds and hundreds and hundreds so it’s not easy to just
+have a little organizing directories its not really good so one of my projects his
+okay let me do something so I can organize my pictures. And that force me to
+learn about WordPress and HTML and Apache Servers so a lot of the stuff that
+nobody has taught me in school and in my work and never really used it but I
+was curious to learn I mean I hear about all these WordPress and these templates
+I like okay lit I’m gonna build a website for my personal pictures that has to be
+easy to navigate easy to administer and where I can mix video with pictures
+obviously nice looking and that for me to learn so that was one of my first project
+I ended up learning everything that I wanted and yeah I mean he was I
+completed my personal photo album. I called it like that, I called it Personal Photo
+Album and now I mean that was one of my projects. I can tell you another one,
+once I wanted to learn about a programming language called Perl, and so my
+project was too collect data you know from public available data, I was collecting
+finance information so I can you know use it to analyze stocks for the stock
+market so I was collecting the data and running some algorithms and giving some
+projects and or something but that was with the objective of learning Perl. And
+yeah I mean once you define a project, “okay I’m going to do it,” it really requires
+a lot to you know you need to really start mastering the language to accomplish
+something so it’s better if that program or that thing you’re trying to learn
+accomplishes something because otherwise it might you know get lost in between
+so that’s why that’s a good way to learn. Put complex projects and complete them.
+Even if it’s just for fun I mean doesn’t need to go anywhere that project it’s just for
+fun. But that gives you always learning and it’s a good thing.
+D: And so that project… what did you name it?
+P: That one I called Stock Analyzer.
+D: I see a pattern. You get the function, and that’s the name now. I think I might
+just be overthinking all this.
+P: No just like I say is not commercial I didn’t launch a new—it’s just for me. It’s
+just a fun project, I call it the Stock Analyzer. You know my Stock Analzyer helped
+me learn Perl you know and also keeping personal finances. The other one I
+organize pictures. I think I still have it around. But yeah, just prioritize yourself to
+to learn technologies and there’s another one I think of but I don’t know if you
+want to cover a third one.
+D: By all means!
+P: Okay, so there is another one that I always want to do with all these
+virtualization technologies. I wanted to have one computer to have many
+computers in the house instead of having each one their own computers just one
+computer that has all of them. So that forced me to learn virtualization, GPU pass-
+through, and you know I completed that project. It has an internal NAS so I learn
+about NAS technologies and different protocols and yeah, all that came together
+and currently even my my PCs runs like that.
+D: I’ve never dealt with visualization programmatically. I’ll actually look into that
+at some point!
+P: Okay sure definitely recommend it.
+D: Thank you for the inspiration.
+P: Sure, absolutely.
+D: And that is all I have to ask.
+P: Good luck, you’re in the right path of things, you like it, you’re passionate
+about it, so definitely work hard and you will do it.
+D: Well thank you so much! It was a pleasure and I actually learned quite a bit
+from this. So, thank you, and that will be the end of this recording.

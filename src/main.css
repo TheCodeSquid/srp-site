@@ -1,0 +1,35 @@
+:root {
+  --color-light: #fffcf8;
+  --color-dark: #363533;
+
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  font-size: 24px;
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--color-light);
+  scroll-behavior: smooth;
+}
+
+/* elems */
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--color-light);
+  width: 100%;
+}

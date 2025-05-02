@@ -1,0 +1,10 @@
+.question {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.2rem;
+  text-align: center;
+  border-bottom: 2px dashed #888886;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 10px 20px -16px #fffffea0;
+}

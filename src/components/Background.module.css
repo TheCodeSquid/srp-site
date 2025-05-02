@@ -1,0 +1,16 @@
+.bg {
+  --color-bg-faint1: #eee;
+  --color-bg-faint2: #eee7;
+  --color-bg-focus1: #444;
+  --color-bg-focus2: #aaa;
+  --color-bg-cross1: #ccc;
+  --color-bg-cross2: #eee0;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: calc(100% - 100vw);
+  z-index: -4;
+  background-color: var(--color-light);
+}

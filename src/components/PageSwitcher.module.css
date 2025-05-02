@@ -1,0 +1,59 @@
+@define-mixin panel {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  box-shadow: 0 0 30px -10px #000d;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.switcher {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content {
+  @mixin panel;
+
+  width: 35rem;
+  margin: 5rem 0;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+.nav-wrapper {
+  position: fixed;
+  top: 50%;
+  left: calc(50% + 19rem);
+  transform: translateY(-50%);
+}
+
+.nav {
+  @mixin panel;
+  --line-height: 1.4rem;
+  --velocity: 0;
+
+  padding-left: 0.4rem;
+  display: flex;
+  flex-direction: row;
+
+  transform: translateY(calc(-1px * var(--velocity) / 2));
+
+  line-height: var(--line-height);
+  a {
+    display: block;
+    color: inherit;
+  }
+}
+
+.cursor {
+  --idx: 0;
+  transform: translateY(calc(var(--idx) * var(--line-height)));
+  transition: transform 0.1s ease-out;
+}
