@@ -28,8 +28,6 @@ for (const line of lines) {
   }
 }
 
-console.log(entries);
-
 const Question = (props: { number: number }) => (
   <div class={styles["question"]}>Question #{props.number}</div>
 );

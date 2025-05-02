@@ -23,9 +23,10 @@ export default (props: PageSwitcherProps) => {
   let nav!: HTMLElement;
 
   const [currentPath, setCurrentPath] = createSignal("/");
-  const updatePathFromReal = (realPath: string) => {
+  const setPathFromReal = (realPath: string) => {
     if (realPath.startsWith(BASE)) {
       const relPath = realPath.slice(BASE.length);
+      console.log(relPath);
       if (relPath in props.pages) {
         setCurrentPath(relPath);
         return;
@@ -34,14 +35,14 @@ export default (props: PageSwitcherProps) => {
     setCurrentPath("/");
     history.replaceState({}, "", BASE);
   };
-  updatePathFromReal(location.pathname);
+  setPathFromReal(location.pathname);
 
   const cursorIdx = createMemo(() => Object.keys(props.pages).indexOf(currentPath()));
 
   const pages = props.pages;
 
   const onPopState = () => {
-    updatePathFromReal(location.pathname);
+    setPathFromReal(location.pathname);
   };
 
   let badClicks = 0;
