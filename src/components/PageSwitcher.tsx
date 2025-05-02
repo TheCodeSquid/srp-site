@@ -6,8 +6,16 @@ import styles from "./PageSwitcher.module.css";
 const FPS = 10;
 const MS_PER_FRAME = 1/FPS * 1000;
 
+const BASE = import.meta.env.BASE_URL;
+
 interface PageSwitcherProps {
   pages: { [path: string]: Component }
+}
+
+function withBase(path: string): string {
+  return path.startsWith("/")
+    ? BASE + path
+    : BASE + "/" + path;
 }
 
 export default (props: PageSwitcherProps) => {
@@ -17,7 +25,7 @@ export default (props: PageSwitcherProps) => {
   const [currentPath, setCurrentPath] = createSignal(location.pathname);
   if (!(currentPath() in props.pages)) {
     setCurrentPath("/");
-    history.replaceState({}, "", "/");
+    history.replaceState({}, "", BASE);
   }
 
   const cursorIdx = createMemo(() => Object.keys(props.pages).indexOf(currentPath()));
@@ -93,7 +101,7 @@ export default (props: PageSwitcherProps) => {
     } else {
       setCurrentPath("/");
    }
-    history.pushState({}, "", currentPath());
+    history.pushState({}, "", withBase(currentPath()));
   };
 
   onMount(() => {
