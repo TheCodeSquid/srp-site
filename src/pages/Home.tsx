@@ -26,9 +26,12 @@ export default () => {
       I first saw websites in my school's computer lab, and I felt the need to know how they work.
     </p>
     <p>
-      Since then, I've been gathering as much knowledge and experience as I can in as many aspects of computer science as I can,
+      Since then, I've been gathering as much knowledge and experience in as many aspects of computer science as I can,
       ranging from bare-metal embedded systems that border on writing raw 1's and 0's,
-      to interactive visuals such as this website's dynamic background.
+      to interactive visuals like those of this website.
+    </p>
+    <p>
+      You can navigate this site using the links on the right.
     </p>
   </>;
 };

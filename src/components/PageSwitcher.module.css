@@ -53,4 +53,29 @@
   --idx: 0;
   transform: translateY(calc(var(--idx) * var(--line-height)));
   transition: transform 0.1s ease-out;
+  cursor: default;
+  user-select: none;
+}
+
+.bad-msg-wrapper {
+  position: absolute;
+  top: calc(100% + 1rem);
+}
+
+.bad-msg {
+  @mixin panel;
+  background-color: var(--color-error2);
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+
+  font-size: 0.8rem;
+
+  opacity: 0;
+  transform: translateY(1rem);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.bad-msg-wrapper.shown .bad-msg {
+  opacity: 1;
+  transform: translateY(0);
 }

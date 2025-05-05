@@ -1,6 +1,8 @@
 :root {
   --color-light: #fffcf8;
   --color-dark: #363533;
+  --color-error: #c55;
+  --color-error2: #c55;
 
   font-family: Inter, sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */

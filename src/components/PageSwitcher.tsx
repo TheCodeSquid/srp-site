@@ -3,20 +3,13 @@ import { Dynamic } from "solid-js/web";
 
 import styles from "./PageSwitcher.module.css";
 
-const FPS = 10;
-const MS_PER_FRAME = 1/FPS * 1000;
-
-const BASE = new URL(import.meta.env.BASE_URL).pathname;
+const BASE = import.meta.env.BASE_URL;
 
 interface PageSwitcherProps {
   pages: { [path: string]: Component }
 }
 
-function withBase(path: string): string {
-  return path.startsWith("/")
-    ? BASE + path
-    : BASE + "/" + path;
-}
+console.log(BASE);
 
 export default (props: PageSwitcherProps) => {
   let content!: HTMLDivElement;
@@ -44,7 +37,7 @@ export default (props: PageSwitcherProps) => {
     setPathFromReal(location.pathname);
   };
 
-  let badClicks = 0;
+  let badClicks = new Set<string>();
   let [badMsg, setBadMsg] = createSignal("I forgot to do that one...");
   let [badShown, setBadShown] = createSignal(false);
   let badTimeoutHandle: number = 0;
@@ -58,15 +51,20 @@ export default (props: PageSwitcherProps) => {
     const a = target as HTMLAnchorElement;
     if (a.hostname !== location.hostname) return;
     ev.preventDefault();
-    if (a.pathname === currentPath()) return;
 
-    if (a.pathname === "/research" || a.pathname === "/reflection") {
-      if (badClicks === 0) {
+    const relPath = a.pathname.slice(BASE.length);
+    if (relPath === currentPath()) return;
+
+    if (relPath === "/research" || relPath === "/reflection") {
+      if (badClicks.size === 0) {
         setBadShown(true);
         badTimeoutHandle = setTimeout(() => {
           setBadShown(false);
         }, 3000);
-      } else if (badClicks === 1) {
+      } else if (badClicks.size === 1 && (
+        (relPath === "/research" && badClicks.has("/reflection"))
+        || (relPath === "/reflection" && badClicks.has("/research"))
+      )) {
         clearTimeout(badTimeoutHandle);
         setBadShown(true);
         setBadMsg("I forgot that one too :(")
@@ -74,7 +72,7 @@ export default (props: PageSwitcherProps) => {
           setBadShown(false);
         }, 3000);
       }
-      let red = "#f55";
+      let red = "var(--color-error)";
       a.animate([
         { color: "inherit", transform: "translateX(0)" },
         { color: red, transform: "translateX(5px)" },
@@ -85,16 +83,16 @@ export default (props: PageSwitcherProps) => {
         duration: 300,
         easing: "ease-out"
       })
-      badClicks += 1;
+      badClicks.add(relPath);
       return ;
     }
 
-    if (a.pathname in props.pages) {
-      setCurrentPath(a.pathname);
+    if (relPath in props.pages) {
+      setCurrentPath(relPath);
     } else {
       setCurrentPath("/");
    }
-    history.pushState({}, "", withBase(currentPath()));
+    history.pushState({}, "", a.pathname);
   };
 
   onMount(() => {
@@ -117,12 +115,21 @@ export default (props: PageSwitcherProps) => {
         >&rarr;&nbsp;</div>
         <div>
           <For each={Object.keys(pages)}>{path =>
-            <a href={path} onClick={onAnchorClick}>
+            <a href={BASE+path} onClick={onAnchorClick}>
               {path === "/" ? "/home" : path}
             </a>
           }</For>
         </div>
       </nav>
+
+      <div classList={{
+        [styles["bad-msg-wrapper"]]: true,
+        [styles["shown"]]: badShown(),
+      }}>
+        <div class={styles["bad-msg"]}>
+          {badMsg()}
+        </div>
+      </div>
     </div>
   </div>;
 };

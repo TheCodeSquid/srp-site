@@ -14,12 +14,12 @@ export default () => {
     <Background />
     <PageSwitcher pages={{
       "/": Home,
-      "/research": Research,
-      "/interview": Interview,
       "/resume": Resume,
+      "/interview": Interview,
       "/work_log": WorkLog,
-      "/reflection": Reflection,
+      "/research": Research,
       "/presentation": Presentation,
+      "/reflection": Reflection,
     }} />
   </>;
 };
