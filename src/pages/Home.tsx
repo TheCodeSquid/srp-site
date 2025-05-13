@@ -1,5 +1,7 @@
 import styles from "./Home.module.css";
 
+const BASE = import.meta.env.BASE_URL;
+
 export default () => {
   return <>
     <div class={styles["heading"]}>
@@ -12,7 +14,9 @@ export default () => {
           I'm a hobbyist software developer and graphic designer.
         </p>
       </div>
-      <div class={styles["image"]}>[photo when I take one]</div>
+      <div class={styles["image"]}>
+        <img alt="me" src={`${BASE}/me.png`} />
+      </div>
     </div>
 
     <hr/>

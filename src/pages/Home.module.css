@@ -17,11 +17,10 @@
 }
 
 .image {
-  min-width: 12rem;
-  min-height: 12rem;
-  background-color: #777;
-  text-align: center;
-  line-height: 12rem;
+  img {
+    max-width: 12rem;
+    max-height: 12rem;
+  }
 }
 
 .topic {
